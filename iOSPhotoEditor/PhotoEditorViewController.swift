@@ -69,7 +69,7 @@ public final class PhotoEditorViewController: UIViewController {
     var activeTextView: UITextView?
     var imageViewToPan: UIImageView?
     var isTyping: Bool = false
-    var tapOnCommentClouser: (() -> ())?
+    public var tapOnCommentClouser: (() -> ())?
     
     var stickersViewController: StickersViewController!
 

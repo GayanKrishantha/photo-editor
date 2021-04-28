@@ -164,6 +164,7 @@
                         <constraint firstAttribute="trailing" secondItem="Doi-2Z-r5q" secondAttribute="trailing" constant="12" id="Ank-Rs-hHo"/>
                         <constraint firstAttribute="height" constant="60" id="RSV-Dw-76F"/>
                         <constraint firstItem="Doi-2Z-r5q" firstAttribute="top" secondItem="3MS-N5-3xY" secondAttribute="top" id="YMJ-5J-baj"/>
+                        <constraint firstItem="Doi-2Z-r5q" firstAttribute="leading" secondItem="9an-1W-thw" secondAttribute="trailing" constant="150" id="jeJ-g8-E0g"/>
                         <constraint firstItem="9an-1W-thw" firstAttribute="leading" secondItem="3MS-N5-3xY" secondAttribute="leading" constant="12" id="lPL-cU-BVr"/>
                     </constraints>
                 </view>

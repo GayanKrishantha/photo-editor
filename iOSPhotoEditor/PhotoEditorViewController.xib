@@ -17,7 +17,6 @@
             <connections>
                 <outlet property="bottomGradient" destination="ZGa-1B-gkO" id="pYn-g8-ak7"/>
                 <outlet property="bottomToolbar" destination="87h-1G-t5q" id="Pzi-Dw-qOq"/>
-                <outlet property="canvasImageView" destination="n3p-yR-4xc" id="OED-1L-YMz"/>
                 <outlet property="canvasView" destination="S1Y-ZS-dct" id="p6I-kg-UUU"/>
                 <outlet property="clearButton" destination="Kpe-Ez-Cio" id="C0i-3L-kLI"/>
                 <outlet property="colorPickerView" destination="Cy8-ap-fH9" id="KJx-KY-rfM"/>
@@ -53,21 +52,14 @@
                                 <constraint firstAttribute="height" constant="667" id="DdY-qb-dfp"/>
                             </constraints>
                         </imageView>
-                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n3p-yR-4xc">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="667"/>
-                        </imageView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="n3p-yR-4xc" firstAttribute="centerY" secondItem="5rw-9v-ExQ" secondAttribute="centerY" id="0QX-a7-mia"/>
                         <constraint firstItem="5rw-9v-ExQ" firstAttribute="centerX" secondItem="S1Y-ZS-dct" secondAttribute="centerX" id="2oa-57-UUp"/>
                         <constraint firstAttribute="trailing" secondItem="5rw-9v-ExQ" secondAttribute="trailing" id="EPV-Q8-h8f"/>
-                        <constraint firstItem="n3p-yR-4xc" firstAttribute="centerX" secondItem="5rw-9v-ExQ" secondAttribute="centerX" id="Her-VZ-Dem"/>
-                        <constraint firstItem="n3p-yR-4xc" firstAttribute="height" secondItem="5rw-9v-ExQ" secondAttribute="height" id="JzM-Mx-Dfz"/>
                         <constraint firstItem="5rw-9v-ExQ" firstAttribute="centerY" secondItem="S1Y-ZS-dct" secondAttribute="centerY" id="KyP-cQ-CLv"/>
                         <constraint firstItem="5rw-9v-ExQ" firstAttribute="top" secondItem="S1Y-ZS-dct" secondAttribute="top" priority="750" id="asb-iT-RHl"/>
                         <constraint firstAttribute="bottom" secondItem="5rw-9v-ExQ" secondAttribute="bottom" priority="750" id="gN9-UZ-cen"/>
-                        <constraint firstItem="n3p-yR-4xc" firstAttribute="width" secondItem="5rw-9v-ExQ" secondAttribute="width" id="n8M-D5-EAA"/>
                         <constraint firstItem="5rw-9v-ExQ" firstAttribute="leading" secondItem="S1Y-ZS-dct" secondAttribute="leading" id="v73-ro-BkR"/>
                     </constraints>
                 </view>

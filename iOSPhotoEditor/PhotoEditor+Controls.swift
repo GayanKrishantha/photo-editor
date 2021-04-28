@@ -105,6 +105,12 @@ extension PhotoEditorViewController {
         photoEditorDelegate?.doneEditing(image: img)
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func commetButtonPressed(_ sender: Any) {
+        if let closure = tapOnCommentClouser{
+            closure()
+        }
+    }
 
     //MAKR: helper methods
     

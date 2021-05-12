@@ -36,6 +36,12 @@
 		9D536FB31ACBC98160CFB8C5297E4033 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 805B7B7661D7CE409C406A7550F65A3E /* icomoon.ttf */; };
 		A05E742F264C0C900080A00F /* add_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A05E742D264C0C8F0080A00F /* add_comment@2x.png */; };
 		A05E7430264C0C900080A00F /* add_comment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A05E742E264C0C900080A00F /* add_comment@3x.png */; };
+		A05E7551264C189B0080A00F /* add_comment.png in Resources */ = {isa = PBXBuildFile; fileRef = A05E7550264C189B0080A00F /* add_comment.png */; };
+		A05E7552264C189B0080A00F /* add_comment.png in Resources */ = {isa = PBXBuildFile; fileRef = A05E7550264C189B0080A00F /* add_comment.png */; };
+		A05E7555264C18B40080A00F /* PhotoCropEditorBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ADD3CBF6D476CCD0122AE392CE9C60 /* PhotoCropEditorBorder@2x.png */; };
+		A05E7558264C18B80080A00F /* PhotoCropEditorBorder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 483BF19C97EA7566F544D67E1C572F52 /* PhotoCropEditorBorder@3x.png */; };
+		A05E755B264C18C60080A00F /* add_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A05E742D264C0C8F0080A00F /* add_comment@2x.png */; };
+		A05E755E264C18C90080A00F /* add_comment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A05E742E264C0C900080A00F /* add_comment@3x.png */; };
 		A5C2A3D6BC7FC6CAC2658B00C14C0AAF /* PhotoEditor+Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55A443A520DA46404C9C1F7CE50EA76 /* PhotoEditor+Drawing.swift */; };
 		A75E4DC74F415D6F7ADC235F309BCC97 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9A96547C0B9CC70A3CF6A1CF3DF8E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F2747F80A4F1F193B9379684C1D232 /* LaunchScreen.storyboard */; };
@@ -107,6 +113,7 @@
 		9F5DDC70B06011E6E38C86C65F71F42A /* UIImage+Crop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Crop.swift"; path = "iOSPhotoEditor/UIImage+Crop.swift"; sourceTree = "<group>"; };
 		A05E742D264C0C8F0080A00F /* add_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_comment@2x.png"; sourceTree = "<group>"; };
 		A05E742E264C0C900080A00F /* add_comment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_comment@3x.png"; sourceTree = "<group>"; };
+		A05E7550264C189B0080A00F /* add_comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_comment.png; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B55A443A520DA46404C9C1F7CE50EA76 /* PhotoEditor+Drawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+Drawing.swift"; path = "iOSPhotoEditor/PhotoEditor+Drawing.swift"; sourceTree = "<group>"; };
@@ -258,6 +265,7 @@
 				54ADD3CBF6D476CCD0122AE392CE9C60 /* PhotoCropEditorBorder@2x.png */,
 				483BF19C97EA7566F544D67E1C572F52 /* PhotoCropEditorBorder@3x.png */,
 				084A8665BA61817812D1A78057EE3FB4 /* PhotoEditor+Controls.swift */,
+				A05E7550264C189B0080A00F /* add_comment.png */,
 				A05E742D264C0C8F0080A00F /* add_comment@2x.png */,
 				A05E742E264C0C900080A00F /* add_comment@3x.png */,
 				304DEF62D83AA04F254F5E0AAB5500A5 /* PhotoEditor+Crop.swift */,
@@ -378,6 +386,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05E7558264C18B80080A00F /* PhotoCropEditorBorder@3x.png in Resources */,
+				A05E7555264C18B40080A00F /* PhotoCropEditorBorder@2x.png in Resources */,
+				A05E755E264C18C90080A00F /* add_comment@3x.png in Resources */,
+				A05E755B264C18C60080A00F /* add_comment@2x.png in Resources */,
+				A05E7552264C189B0080A00F /* add_comment.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +409,7 @@
 				978E9AE6C8A3A246C302C19A898C80A9 /* PhotoEditorViewController.xib in Resources */,
 				D5A9F04C12BAC49DAA718B19823E924A /* StickerCollectionViewCell.xib in Resources */,
 				A05E742F264C0C900080A00F /* add_comment@2x.png in Resources */,
+				A05E7551264C189B0080A00F /* add_comment.png in Resources */,
 				8F3575468FCC7ED41620A18FCBCBF184 /* StickersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
